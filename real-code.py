@@ -13,12 +13,11 @@ def newFeature():
 
 
 def main():
-    newFeature()
-
     if len(sys.argv) == 2:
         dog()
     else:
         default()
+        newFeature()
 
 
 if __name__ == "__main__":
