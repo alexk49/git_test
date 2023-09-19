@@ -1,5 +1,7 @@
 import sys
 
+def dog():
+    print("woof")
 
 def default():
     print("Hello")
@@ -11,8 +13,12 @@ def newFeature():
 
 
 def main():
-    default()
     newFeature()
+
+    if len(sys.argv) == 2:
+        dog()
+    else:
+        default()
 
 
 if __name__ == "__main__":
