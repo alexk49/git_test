@@ -2,7 +2,7 @@ import sys
 
 
 def dog():
-    print("woof")
+    print("woof") * 2
 
 
 def default():
