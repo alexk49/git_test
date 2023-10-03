@@ -1,10 +1,12 @@
 import sys
 
+
 def dog():
     print("woof")
 
+
 def default():
-    print("Hello")
+    print("Hello ")
 
 
 def newFeature():
