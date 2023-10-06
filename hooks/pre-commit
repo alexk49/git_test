@@ -1,0 +1,12 @@
+#!/bin/bash
+# lint code
+.venv/bin/python3 -m .venv/bin/black *.py
+
+make
+
+if [[ $? -ne 0 ]]; then
+    echo "Bad build, commit rejected"
+    exit 1
+else
+    echo "Successfully build"
+fi
