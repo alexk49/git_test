@@ -3,6 +3,9 @@ import sys
 def hello_world():
     print("hello world")
 
+def hello():
+    print("hello")
+
 def dog():
     print("woof") * 4
 
