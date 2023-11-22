@@ -2,8 +2,6 @@
 My first github repo!
 Hello Odin!
 
-~~~~~~~~~~~~
-
 above kept for historic purposes ^
 
 This is just used for testing new processes, and messing around with git.
